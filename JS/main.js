@@ -3,7 +3,7 @@ $(document).ready(function() {
         autoplay: true,
     });
     $(".hamburguer-menu").click(function(){
-        $("nav").slideToggle();
+        $(".links").slideToggle();
     })
 
     $("#phone").mask("(000) 000-0000", {
